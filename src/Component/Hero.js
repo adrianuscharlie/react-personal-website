@@ -3,7 +3,7 @@ import photo from "../Images/photo.png"
 
 export default function Hero (){
     return (
-        <section id="home" className="pt-30">
+        <section id="home" className="pt-36">
             <div className="container">
                 <div className="flex flex-wrap">
                     <div className="w-full self-center px-4 lg:w-1/2">

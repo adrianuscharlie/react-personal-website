@@ -8,8 +8,8 @@ export default function Footer(){
             <div className="container">
                 <div className="flex flex-wrap">
                     <div className="w-full px-4 pb-12 text-slate-300 font-medium md:w-1/2">
-                        <h2 className="font-bold text-4xl text-white mb-5">Blablabla</h2>
-                        <h3 className="font-bold text-2xl mb-2">Contact us</h3>
+                        <h2 className="font-bold text-4xl text-white mb-5">More Information</h2>
+                        <h3 className="font-bold text-2xl mb-2">Contact me</h3>
                         <p>adrianus.charlie02@gmail.com</p>
                         <p>Jl. Kaliurang Km.17, Pakembinangun, Pakem</p>
                         <p>Sleman</p>

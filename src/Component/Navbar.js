@@ -9,7 +9,7 @@ export default function Navbar(){
                 <a href="#home" className="font-bold text-primary  text-lg block py-6">Adrianus Charlie</a>
               </div>
               <div className="flex items-center px-4">
-                <button id="hamburger" name="hamburger" type="button" className="block absolute right-4 lg:hidden">
+                <button id="hamburger" name="hamburger" type="button" className=" hamburger block absolute right-4 lg:hidden">
                   <span className="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
                   <span className="hamburger-line transition duration-300 ease-in-out"></span>
                   <span className="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
@@ -18,7 +18,7 @@ export default function Navbar(){
                 lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
                   <ul className="block lg:flex">
                     <li className="group">
-                      <a href="#home" className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Home</a>
+                      <a href="#home" className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
                     </li>
                     <li className="group">
                       <a href="#about" className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About</a>

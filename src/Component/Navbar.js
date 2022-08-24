@@ -26,6 +26,9 @@ export default function Navbar(){
                     <li className="group">
                       <a href="#portfolio" className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
                     </li>
+                    <li className="group">
+                      <a href="#contact" className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
+                    </li>
                   </ul>
                 </nav>
               </div>
@@ -34,10 +37,9 @@ export default function Navbar(){
     </header>
   )
 }
-
 const hamburger=document.querySelector('#hamburger');
 const navMenu=document.querySelector('#nav-menu');
 hamburger.addEventListener('click',function(){
   hamburger.classList.toggle('hamburger-active');
   navMenu.classList.toggle('hidden');
-})  
+}) 

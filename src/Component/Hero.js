@@ -3,14 +3,14 @@ import photo from "../Images/photo.png"
 
 export default function Hero (){
     return (
-        <section id="home" className="pt-36">
+        <section id="home" className="pt-36 lg:pt-0">
             <div className="container">
                 <div className="flex flex-wrap">
                     <div className="w-full self-center px-4 lg:w-1/2">
-                        <h1 className="text-base font-semibold text-primary md:text-xl">Halo semua 👌, Saya
+                        <h1 className="text-base font-semibold text-primary md:text-xl">Hello Everyone 👋, I'm
                         <span className="block font-bold text-dark text-4xl mt-1 lg:text-5xl">Adrianus Charlie</span> </h1>
-                        <h2 className="font-medium text-secondary text-lg mb-5 lg:text-2xl">Programmer in Sanata Dharma University</h2>
-                        <p className="font-medium text-slate-400 mb-10 leading-relaxed">I'am a Web Developer, Software Engineer, Machine Learning Engineer and Undergraduated Student From Informatics Engineering, Sanata Dharma University</p>
+                        <h2 className="font-medium text-secondary text-lg mb-5 lg:text-2xl">Undergraduated Student in Sanata Dharma University</h2>
+                        <p className="font-medium text-slate-400 mb-10 leading-relaxed">Web Developer - Machine Learning - Software Engineering - Data Scientist</p>
                         <a href={"https://google.com"} className="text-base text-white font-semibold bg-teal-500 py-3 px-8 rounded-full
                         hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Hire Me!</a>
                     </div>

@@ -18,13 +18,16 @@ export default function Navbar(){
                 lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
                   <ul className="block lg:flex">
                     <li className="group">
-                      <a href="#home" className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
+                      <a href="#home" className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Home</a>
                     </li>
                     <li className="group">
                       <a href="#about" className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About</a>
                     </li>
                     <li className="group">
                       <a href="#portfolio" className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
+                    </li>
+                    <li className="group">
+                      <a href="#skills" className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Skills</a>
                     </li>
                     <li className="group">
                       <a href="#contact" className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
@@ -37,9 +40,3 @@ export default function Navbar(){
     </header>
   )
 }
-const hamburger=document.querySelector('#hamburger');
-const navMenu=document.querySelector('#nav-menu');
-hamburger.addEventListener('click',function(){
-  hamburger.classList.toggle('hamburger-active');
-  navMenu.classList.toggle('hidden');
-}) 

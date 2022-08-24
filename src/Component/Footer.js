@@ -7,32 +7,15 @@ export default function Footer(){
         <footer className="bg-dark pt-36 pb-32">
             <div className="container">
                 <div className="flex flex-wrap">
-                    <div className="w-full px-4 pb-12 text-slate-300 font-medium md:w-1/3">
+                    <div className="w-full px-4 pb-12 text-slate-300 font-medium md:w-1/2">
                         <h2 className="font-bold text-4xl text-white mb-5">Blablabla</h2>
                         <h3 className="font-bold text-2xl mb-2">Contact us</h3>
                         <p>adrianus.charlie02@gmail.com</p>
                         <p>Jl. Kaliurang Km.17, Pakembinangun, Pakem</p>
                         <p>Sleman</p>
                     </div>
-                    <div className="w-full px-4 pb-12 md:w-1/3">
-                        <h3 className="font-semibold text-xl text-white mb-5">Kategori tulisan</h3>
-                        <ul className="text-slate-300">
-                            <li>
-                                <a href="#" className="inline-block text-base hover:text-primary mb-3">Teknologi</a>
-                            </li>
-                            <li>
-                                <a href="#" className="inline-block text-base hover:text-primary mb-3">Teknologi</a>
-                            </li>
-                            <li>
-                                <a href="#" className="inline-block text-base hover:text-primary mb-3">Teknologi</a>
-                            </li>
-                            <li>
-                                <a href="#" className="inline-block text-base hover:text-primary mb-3">Teknologi</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="w-full px-4 pb-12 md:w-1/3">
-                    <h3 className="font-semibold text-xl text-white mb-5">Kategori tulisan</h3>
+                    <div className="w-full px-4 pb-12 md:w-1/2">
+                    <h3 className="font-semibold text-xl text-white mb-5">Link</h3>
                     <ul className="text-slate-300">
                         <li>
                             <a href="#home" className="inline-block text-base hover:text-primary mb-3">Home</a>

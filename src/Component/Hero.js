@@ -11,7 +11,7 @@ export default function Hero (){
                         <span className="block font-bold text-dark text-4xl mt-1 lg:text-5xl">Adrianus Charlie</span> </h1>
                         <h2 className="font-medium text-secondary text-lg mb-5 lg:text-2xl">Undergraduated Student in Sanata Dharma University</h2>
                         <p className="font-medium text-slate-400 mb-10 leading-relaxed">Web Developer - Machine Learning - Software Engineering - Data Scientist</p>
-                        <a href={"https://google.com"} className="text-base text-white font-semibold bg-teal-500 py-3 px-8 rounded-full
+                        <a href="#contact" className="text-base text-white font-semibold bg-teal-500 py-3 px-8 rounded-full
                         hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Hire Me!</a>
                     </div>
                     <div className="w-full self-end px-4 lg:w-1/2">

@@ -9,7 +9,7 @@ export default function Footer(){
                 <div className="flex flex-wrap">
                     <div className="w-full px-4 pb-12 text-slate-300 font-medium md:w-1/2">
                         <h2 className="font-bold text-4xl text-white mb-5">More Information</h2>
-                        <h3 className="font-bold text-2xl mb-2">Contact me</h3>
+                        <h3 className="font-bold text-2xl mb-2">My Address</h3>
                         <p>adrianus.charlie02@gmail.com</p>
                         <p>Jl. Kaliurang Km.17, Pakembinangun, Pakem</p>
                         <p>Sleman</p>
@@ -38,7 +38,7 @@ export default function Footer(){
                          <Social name={data.nama} url={data.url} path={data.path}/>
                      ))}
                     </div>
-                    <p className="font-medium text-sm text-slate-500 text-center">Dibuat menggunakan React.js dan Tailwind.css oleh Adrianus Charlie</p>
+                    <p className="font-medium text-sm text-slate-500 text-center">Created with ❤️ by Adrianus Charlie using React.js and Tailwind.css</p>
                 </div>
             </div>
         </footer>
